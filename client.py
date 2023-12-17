@@ -57,7 +57,7 @@ class Me():
             pygame.draw.circle(screen, colours[self.colour],
                                (WIDTH_WINDOW // 2, HEIGHT_WINDOW // 2), self.r)
 
-            write_name(WIDTH_WINDOW // 2, HEIGHT_WINDOW // 2, self.r, my_name)
+            write_name(WIDTH_WINDOW // 2, HEIGHT_WINDOW // 2, self.r // 2, my_name)
 
 
 class Grid():
